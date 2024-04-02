@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #f85606;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.upperNav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.usefulLink{
+    display: flex;
+}
+.usefulLink li{
+    list-style: none;
+}
+.usefulLink li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 0px 10px;
+}
+.appLink button{
+    border-radius: 10px;
+    display: flex;
+    padding: 5px 10px;
+    color: white;
+    background-color: #AD3C04;
+    border: #f85606;
+    cursor: pointer;
+}
+.appLink img{
+    width: 25px;
+    height: 20px;
+}
+.appLink p{
+    color: white;
+    font-weight: 600px;
+}
+.appLink p:hover{
+    color: rgb(218, 218, 218);
+}
+.lowerNav{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+}
+.Logo img{
+    width: 220px;
+    height: 80px;
+}
+.reSearch{
+    margin: auto;
+    border: none;
+}
+.reSearch input{
+    height: 30px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border-color: white;
+}
+.LogIn{
+    margin: 0px 10px;
+    padding: 20px 20px;
+    width: 150px;
+}
+.LogIn button{
+    display: flex;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #f85606;
+}
+.LogIn button:hover{
+    background-color: #AD3C04;
+}
+.LogIn button img{
+    width: 25px;
+    height: 30px;
+}
+.LogIn button p{
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.SignUp{
+    margin: 0px 10px;
+    padding: 20px 20px;
+    width: 150px;
+}
+.SignUp button{
+    display: flex;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #f85606;
+}
+.SignUp button:hover{
+    background-color: #AD3C04;
+}
+.onSale{
+    margin: 20px 50px;
+    background-color: rgb(245, 245, 245);
+}
+.sale{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.sale p{
+    color: #ec5204;
+    padding: 5px 5px ;
+}
+.sale button{
+    padding: 5px 5px ;
+    color: #ec5204;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #ec5204;
+}
+hr{
+    color: black;
+}
+.for-allCard{
+    display: flex;
+    padding: 5px 0px 10px 0px;
+    justify-content: space-between;
+}
+.for1Card{
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+.for1Card:hover{
+    box-shadow: 5px 5px 10px rgba(235, 211, 180, 0.5);
+    transform: scale(1.1);
+    transition: all .5s ease-out;
+}
+.for1Card a{
+    text-decoration: none;
+    color: black;
+}
+.for1Card img{
+    width: 100%;
+    height: 60%;
+}
+.for1Card p{
+    padding: auto;
+}
+.for1Card h3{
+    color: #f85606;
+}
+.for1Card s{
+    color: gray;
+}
+.pro-FullDetails{
+    display: flex;
+    width: 95%;
+    margin: 10px 40px;
+    background-color: bisque;
+}
